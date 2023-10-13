@@ -2,9 +2,9 @@
     display: flex;
     flex: 1;
     background-color: #1F2937;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    
+    gap: 350px;
 }
 
 .logo{
@@ -26,8 +26,55 @@ a{
 
 ul{
     display: flex;
-    
     list-style-type: none;
-    gap: 20px;
+    gap: 20px;  
+}
+
+.section2{
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.text-and-button{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 450px;
+    margin-left: -60px;
     
+}
+
+.text-header{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.sub-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-top-button{
+    color: white;
+    font-weight: 900;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    width: 100px;
+    height: 35px;
+    border-radius: 12px;
+}
+
+.image{
+    display: flex;
+}
+
+
+.supraAndSkyline{
+    margin-right: -60px;
+    padding: 20px;
 }
